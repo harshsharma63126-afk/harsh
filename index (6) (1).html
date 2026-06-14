@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Rajasthan Self Drive Car Service Jaipur — Self Drive Cars in Pratap Nagar</title>
+<meta name="description" content="Self drive car rentals in Jaipur. Clean cars, transparent pricing, 24×7 support. Pick up from Pratap Nagar. Call or WhatsApp to book." />
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%231d3557'/%3E%3Ctext x='50' y='66' font-family='serif' font-size='54' text-anchor='middle' fill='%23f4c430' font-weight='700'%3ER%3C/text%3E%3C/svg%3E" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700;9..144,900&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#f6f1e7;
+    --bg-2:#efe7d6;
+    --ink:#16202b;
+    --ink-soft:#3a4756;
+    --muted:#6b7785;
+    --brand:#1d3557;
+    --accent:#f4c430;
+    --accent-2:#c9442b;
+    --line:#1620201a;
+    --card:#fffaf0;
+    --shadow:0 10px 30px rgba(22,32,43,.08);
+    --radius:14px;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{
+    margin:0;background:var(--bg);color:var(--ink);
+    font-family:'Manrope',system-ui,sans-serif;font-size:16px;line-height:1.6;
+    -webkit-font-smoothing:antialiased;
+  }
+  h1,h2,h3,h4{font-family:'Fraunces',serif;color:var(--ink);font-weight:700;letter-spacing:-.02em;margin:0 0 .4em}
+  h1{font-size:clamp(2rem,5.2vw,3.6rem);line-height:1.05;font-weight:900}
+  h2{font-size:clamp(1.6rem,3.4vw,2.4rem);line-height:1.1}
+  h3{font-size:1.25rem;line-height:1.2}
+  p{margin:0 0 1em;color:var(--ink-soft)}
+  a{color:inherit;text-decoration:none}
+  img{max-width:100%;display:block}
+  .wrap{max-width:1180px;margin:0 auto;padding:0 22px}
+  .eyebrow{font:600 .78rem/1 'Manrope',sans-serif;letter-spacing:.18em;text-transform:uppercase;color:var(--brand);display:inline-block;padding:6px 10px;border:1px solid var(--brand);border-radius:99px;background:transparent}
+
+  /* Buttons */
+  .btn{display:inline-flex;align-items:center;gap:8px;padding:14px 22px;border-radius:99px;font-weight:700;font-size:.98rem;border:1.5px solid transparent;cursor:pointer;transition:transform .15s ease,box-shadow .15s ease;white-space:nowrap}
+  .btn:hover{transform:translateY(-1px)}
+  .btn-wa{background:#25D366;color:#0a2614}
+  .btn-call{background:transparent;color:var(--brand);border-color:var(--brand)}
+  .btn-primary{background:var(--brand);color:#fff}
+  .btn-ghost{background:var(--accent);color:#1a1306}
+  .btn svg{width:18px;height:18px}
+
+  /* Header */
+  header{position:sticky;top:0;z-index:50;background:rgba(246,241,231,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+  .nav{display:flex;align-items:center;gap:18px;padding:14px 0}
+  .logo{display:flex;align-items:center;gap:10px;font-family:'Fraunces',serif;font-weight:900;font-size:1.05rem;color:var(--ink)}
+  .logo-mark{width:40px;height:40px;border-radius:10px;background:var(--brand);color:var(--accent);display:grid;place-items:center;font-weight:900;font-size:1.15rem}
+  .logo small{display:block;font:500 .7rem/1 'Manrope',sans-serif;color:var(--muted);letter-spacing:.08em;text-transform:uppercase;margin-top:3px}
+  nav.links{margin-left:auto;display:flex;gap:24px;font-weight:600;font-size:.95rem}
+  nav.links a{color:var(--ink-soft);position:relative}
+  nav.links a:hover{color:var(--brand)}
+  .nav-cta{display:flex;gap:8px}
+  .nav-cta .btn{padding:10px 16px;font-size:.85rem}
+  .hamburger{display:none;background:none;border:0;font-size:1.6rem;color:var(--ink);cursor:pointer}
+
+  /* Hero */
+  .hero{position:relative;padding:60px 0 80px;overflow:hidden}
+  .hero-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:60px;align-items:center}
+  .hero h1 span{color:var(--brand);font-style:italic}
+  .hero .proof{font-weight:600;color:var(--ink);display:inline-flex;align-items:center;gap:8px;margin-top:14px;background:var(--bg-2);padding:8px 14px;border-radius:99px;font-size:.92rem}
+  .hero-cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}
+  .hero-visual{position:relative}
+  .hero-visual img{border-radius:18px;aspect-ratio:4/5;object-fit:cover;box-shadow:var(--shadow)}
+  .hero-tag{position:absolute;bottom:-18px;left:-18px;background:var(--accent);color:#1a1306;padding:14px 18px;border-radius:14px;font-weight:700;font-size:.9rem;box-shadow:var(--shadow);max-width:220px;font-family:'Fraunces',serif}
+  .hero-motif{position:absolute;top:20px;right:-30px;width:140px;opacity:.25}
+
+  /* Trust strip */
+  .trust{background:var(--ink);color:#f6f1e7;padding:36px 0}
+  .trust-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:30px;text-align:center}
+  .trust .num{font-family:'Fraunces',serif;font-size:2.1rem;font-weight:900;color:var(--accent);display:block;line-height:1}
+  .trust .lbl{font-size:.85rem;color:#cbd2da;margin-top:6px;display:block}
+
+  /* Section base */
+  section{padding:90px 0}
+  .section-head{max-width:680px;margin-bottom:50px}
+  .section-head h2{margin-top:14px}
+
+  /* Services */
+  .services-grid{display:grid;grid-template-columns:repeat(12,1fr);gap:22px}
+  .card{background:var(--card);border-radius:var(--radius);padding:26px;display:flex;flex-direction:column;border:1px solid var(--line);transition:transform .2s ease,box-shadow .2s ease}
+  .card:hover{transform:translateY(-4px);box-shadow:var(--shadow)}
+  .card .icon{width:46px;height:46px;border-radius:12px;background:var(--bg-2);display:grid;place-items:center;margin-bottom:14px;color:var(--brand)}
+  .card .icon svg{width:24px;height:24px}
+  .card h3{margin-bottom:8px}
+  .card .desc{font-size:.92rem;color:var(--muted);flex:1}
+  .card .price{font-family:'Fraunces',serif;font-size:1.35rem;font-weight:700;color:var(--ink);margin:12px 0 14px}
+  .card .price small{font-family:'Manrope',sans-serif;font-size:.78rem;color:var(--muted);font-weight:500;letter-spacing:.04em}
+  .card .btn{align-self:flex-start;padding:10px 16px;font-size:.85rem}
+  .s-1{grid-column:span 6} .s-2{grid-column:span 3} .s-3{grid-column:span 3}
+  .s-4{grid-column:span 4} .s-5{grid-column:span 4} .s-6{grid-column:span 4}
+  .s-7{grid-column:span 5} .s-8{grid-column:span 7}
+  .s-9{grid-column:span 6} .s-10{grid-column:span 6}
+  .s-feat{background:var(--brand);color:#f6f1e7}
+  .s-feat h3,.s-feat .price{color:#fff}
+  .s-feat .desc{color:#cbd2da}
+  .s-feat .icon{background:#ffffff14;color:var(--accent)}
+  .s-feat .btn-wa{background:var(--accent);color:#1a1306}
+
+  /* About */
+  .about{background:var(--bg-2)}
+  .about-grid{display:grid;grid-template-columns:.85fr 1.15fr;gap:60px;align-items:center}
+  .avatar{width:130px;height:130px;border-radius:50%;background:var(--brand);color:var(--accent);display:grid;place-items:center;font-family:'Fraunces',serif;font-weight:900;font-size:3rem;box-shadow:var(--shadow);margin-bottom:20px}
+  .diff-list{list-style:none;padding:0;margin:24px 0 0;display:grid;gap:10px}
+  .diff-list li{display:flex;gap:12px;align-items:flex-start;font-weight:500;color:var(--ink)}
+  .hex{width:14px;height:14px;flex-shrink:0;margin-top:6px;background:var(--accent);clip-path:polygon(25% 5%,75% 5%,100% 50%,75% 95%,25% 95%,0 50%)}
+
+  /* Gallery */
+  .gallery-grid{display:grid;grid-template-columns:repeat(6,1fr);grid-auto-rows:160px;gap:14px}
+  .gallery-grid img{width:100%;height:100%;object-fit:cover;border-radius:10px}
+  .g1{grid-column:span 2;grid-row:span 2}
+  .g2{grid-column:span 2}
+  .g3{grid-column:span 2}
+  .g4{grid-column:span 2;grid-row:span 2}
+  .g5{grid-column:span 2}
+  .g6{grid-column:span 3}
+  .g7{grid-column:span 3}
+  .g8{grid-column:span 2}
+  .g9{grid-column:span 4}
+
+  /* Testimonials */
+  .testimonials{background:var(--ink);color:#f6f1e7;position:relative;overflow:hidden}
+  .testimonials h2{color:#fff}
+  .testimonials .eyebrow{color:var(--accent);border-color:var(--accent)}
+  .t-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:40px}
+  .t-card{background:#1f2c3a;padding:28px;border-radius:var(--radius);border:1px solid #ffffff14}
+  .stars{display:flex;gap:2px;margin-bottom:14px}
+  .stars svg{width:18px;height:18px;fill:var(--accent)}
+  .t-card p{color:#dbe1e8;font-size:.98rem}
+  .t-meta{margin-top:14px;font-size:.85rem;color:var(--accent);font-weight:600}
+  .t-meta span{color:#9aa5b1;font-weight:400;display:block;margin-top:2px}
+
+  /* Pricing */
+  .price-list{background:var(--card);border-radius:var(--radius);padding:14px;border:1px solid var(--line)}
+  .price-row{display:flex;justify-content:space-between;align-items:center;padding:18px 16px;border-bottom:1px dashed var(--line);gap:16px;flex-wrap:wrap}
+  .price-row:last-child{border-bottom:0}
+  .price-row .name{font-weight:600;color:var(--ink)}
+  .price-row .name small{display:block;color:var(--muted);font-weight:400;font-size:.82rem;margin-top:2px}
+  .price-row .amt{font-family:'Fraunces',serif;font-weight:700;font-size:1.15rem;color:var(--brand);white-space:nowrap}
+
+  /* Contact */
+  .contact-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:40px}
+  .map-wrap{border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow);min-height:380px}
+  .map-wrap iframe{width:100%;height:100%;min-height:380px;border:0;display:block}
+  .info-card{background:var(--card);border-radius:var(--radius);padding:30px;border:1px solid var(--line)}
+  .info-row{display:flex;gap:14px;padding:14px 0;border-bottom:1px solid var(--line)}
+  .info-row:last-of-type{border-bottom:0}
+  .info-row .ic{width:38px;height:38px;border-radius:10px;background:var(--bg-2);display:grid;place-items:center;color:var(--brand);flex-shrink:0}
+  .info-row .ic svg{width:18px;height:18px}
+  .info-row strong{display:block;font-size:.78rem;text-transform:uppercase;letter-spacing:.1em;color:var(--muted);margin-bottom:3px;font-weight:600}
+  .info-row span{color:var(--ink);font-weight:500}
+  .hours{display:grid;grid-template-columns:1fr 1fr;gap:8px 20px;margin-top:8px}
+  .hours div{display:flex;justify-content:space-between;font-size:.92rem;padding:4px 0;border-bottom:1px dashed var(--line)}
+  .contact-cta{display:flex;gap:10px;margin-top:18px;flex-wrap:wrap}
+
+  /* Footer */
+  footer{background:var(--ink);color:#cbd2da;padding:70px 0 110px}
+  .foot-grid{display:grid;grid-template-columns:1.4fr 1fr 1.4fr;gap:40px;margin-bottom:40px}
+  footer h4{color:#fff;font-size:1rem;margin-bottom:16px;font-family:'Manrope',sans-serif;font-weight:700;text-transform:uppercase;letter-spacing:.08em}
+  footer a{color:#cbd2da;display:block;padding:4px 0}
+  footer a:hover{color:var(--accent)}
+  .foot-cta{background:var(--accent);color:#1a1306;border-radius:var(--radius);padding:24px;display:flex;justify-content:space-between;align-items:center;gap:20px;flex-wrap:wrap}
+  .foot-cta h3{color:#1a1306;margin:0;font-size:1.3rem}
+  .copyright{border-top:1px solid #ffffff1a;margin-top:40px;padding-top:24px;display:flex;justify-content:space-between;font-size:.84rem;flex-wrap:wrap;gap:10px}
+  .built{font-size:.78rem;color:#7a8593;text-align:center;padding:10px 0;background:#0d161f}
+
+  /* Sticky mobile bar */
+  .sticky-bar{display:none;position:fixed;bottom:0;left:0;right:0;background:var(--ink);padding:10px;gap:8px;z-index:60;box-shadow:0 -4px 20px rgba(0,0,0,.2)}
+  .sticky-bar .btn{flex:1;justify-content:center;padding:14px}
+
+  /* Layout-breaking moment */
+  .quote-break{padding:60px 0;position:relative}
+  .quote-break blockquote{font-family:'Fraunces',serif;font-style:italic;font-size:clamp(1.4rem,3.5vw,2.2rem);line-height:1.3;color:var(--ink);max-width:820px;margin:0;padding-left:30px;border-left:4px solid var(--accent)}
+  .quote-break cite{display:block;margin-top:16px;font-style:normal;font-size:.95rem;color:var(--muted);font-family:'Manrope',sans-serif}
+
+  /* Responsive */
+  @media (max-width:1080px){
+    .hero-grid{gap:40px}
+    .services-grid > *{grid-column:span 6 !important}
+    .foot-grid{grid-template-columns:1fr 1fr}
+  }
+  @media (max-width:820px){
+    section{padding:70px 0}
+    .hero{padding:40px 0 60px}
+    .hero-grid{grid-template-columns:1fr;gap:40px}
+    .hero-visual img{aspect-ratio:4/3}
+    .trust-grid{grid-template-columns:repeat(2,1fr);gap:24px}
+    .about-grid{grid-template-columns:1fr;gap:30px}
+    .contact-grid{grid-template-columns:1fr}
+    .t-grid{grid-template-columns:1fr}
+    .gallery-grid{grid-template-columns:repeat(4,1fr);grid-auto-rows:130px}
+    .g1,.g4{grid-column:span 2;grid-row:span 2}
+    .g2,.g3,.g5,.g8{grid-column:span 2;grid-row:span 1}
+    .g6,.g7{grid-column:span 2}
+    .g9{grid-column:span 4}
+    nav.links{display:none}
+    .nav-cta .btn-call{display:none}
+    .foot-grid{grid-template-columns:1fr}
+    .sticky-bar{display:flex}
+    footer{padding-bottom:90px}
+  }
+  @media (max-width:520px){
+    .wrap{padding:0 16px}
+    .services-grid > *{grid-column:span 12 !important}
+    .trust-grid{grid-template-columns:1fr 1fr}
+    .hero-tag{left:auto;right:-8px;bottom:-14px;font-size:.8rem;padding:10px 14px}
+    .nav-cta .btn{padding:9px 13px;font-size:.78rem}
+    .logo small{display:none}
+  }
+</style>
+</head>
+<body>
+
+<!-- HEADER -->
+<header>
+  <div class="wrap nav">
+    <a href="#top" class="logo">
+      <div class="logo-mark">R</div>
+      <div>Rajasthan Self Drive<small>Jaipur</small></div>
+    </a>
+    <nav class="links">
+      <a href="#fleet">Fleet</a>
+      <a href="#about">About</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="nav-cta">
+      <a class="btn btn-call" href="tel:+917240205087">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.37 1.9.72 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.35 1.85.59 2.81.72A2 2 0 0 1 22 16.92z"/></svg>
+        Call
+      </a>
+      <a class="btn btn-wa" href="https://wa.me/917240205087?text=Hi%2C%20I%27d%20like%20to%20book%20a%20self%20drive%20car%20in%20Jaipur.%20Please%20share%20availability.">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.5 3.5A11.94 11.94 0 0 0 12 0C5.4 0 0 5.4 0 12c0 2.1.6 4.1 1.6 5.9L0 24l6.3-1.6c1.7.9 3.7 1.4 5.7 1.4 6.6 0 12-5.4 12-12 0-3.2-1.2-6.2-3.5-8.3zM12 21.8c-1.8 0-3.5-.5-5-1.4l-.4-.2-3.7 1 1-3.6-.2-.4C2.6 15.7 2 13.9 2 12 2 6.5 6.5 2 12 2c2.7 0 5.2 1 7.1 2.9C21 6.8 22 9.3 22 12c0 5.5-4.5 9.8-10 9.8z"/></svg>
+        WhatsApp
+      </a>
+    </div>
+  </div>
+</header>
+
+<a id="top"></a>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <span class="eyebrow">Pratap Nagar · Jaipur</span>
+      <h1>Drive your <span>own</span> Jaipur. Self drive cars, ready when you are.</h1>
+      <p style="font-size:1.08rem;max-width:520px">Hatchbacks to SUVs, picked up clean and fuelled. Skip the driver, set the pace, and head wherever the day takes you.</p>
+      <div class="proof">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="#f4c430"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+        5.0 rated · 132 Google reviews · 24×7 service
+      </div>
+      <div class="hero-cta">
+        <a class="btn btn-wa" href="https://wa.me/917240205087?text=Hi%2C%20I%20want%20to%20book%20a%20self%20drive%20car.%20Please%20share%20today%27s%20availability%20and%20rates.">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.5 3.5A11.94 11.94 0 0 0 12 0C5.4 0 0 5.4 0 12c0 2.1.6 4.1 1.6 5.9L0 24l6.3-1.6c1.7.9 3.7 1.4 5.7 1.4 6.6 0 12-5.4 12-12 0-3.2-1.2-6.2-3.5-8.3z"/></svg>
+          Book on WhatsApp
+        </a>
+        <a class="btn btn-call" href="tel:+917240205087">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.37 1.9.72 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.35 1.85.59 2.81.72A2 2 0 0 1 22 16.92z"/></svg>
+          Call 072402 05087
+        </a>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <svg class="hero-motif" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><g fill="none" stroke="#1d3557" stroke-width="1"><path d="M50 5 L95 30 V70 L50 95 L5 70 V30 Z"/><path d="M50 25 L75 38 V62 L50 75 L25 62 V38 Z"/><circle cx="50" cy="50" r="6" fill="#f4c430"/></g></svg>
+      <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=900&auto=format&fit=crop" alt="Self drive SUV ready for a Jaipur road trip" />
+      <div class="hero-tag">Free pickup &amp; drop in Pratap Nagar</div>
+    </div>
+  </div>
+</section>
+
+<!-- TRUST STRIP -->
+<section class="trust" style="padding:36px 0">
+  <div class="wrap trust-grid">
+    <div><span class="num">5.0★</span><span class="lbl">Google Rating</span></div>
+    <div><span class="num">132+</span><span class="lbl">Verified Reviews</span></div>
+    <div><span class="num">24×7</span><span class="lbl">On-call Support</span></div>
+    <div><span class="num">10+</span><span class="lbl">Cars in the Fleet</span></div>
+  </div>
+</section>
+
+<!-- SERVICES / FLEET -->
+<section id="fleet">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">The Fleet</span>
+      <h2>Pick a car. We hand you the keys.</h2>
+      <p>From a nippy Swift for inner-city errands to a Thar built for the dunes — every car comes serviced, sanitised and full of fuel.</p>
+    </div>
+    <div class="services-grid">
+
+      <article class="card s-feat s-1">
+        <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 17h2l1.5-4.5A2 2 0 0 1 8.4 11h7.2a2 2 0 0 1 1.9 1.5L19 17h2"/><circle cx="7" cy="17" r="2"/><circle cx="17" cy="17" r="2"/></svg></div>
+        <h3>Hyundai Creta</h3>
+        <p class="desc">Our most-asked SUV. Sunroof, automatic gearbox, spacious for five and built for long highway runs to Pushkar or Udaipur.</p>
+        <div class="price">₹3,499 <small>/ day onwards</small></div>
+        <a class="btn btn-wa" href="https://wa.me/917240205087?text=Hi%2C%20I%20want%20to%20book%20the%20Hyundai%20Creta.%20Please%20share%20availability.">Book Creta</a>
+      </article>
+
+      <article class="card s-2">
+        <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 17h2l1.5-4.5A2 2 0 0 1 8.4 11h7.2a2 2 0 0 1 1.9 1.5L19 17h2"/><circle cx="7" cy="17" r="2"/><circle cx="17" cy="17" r="2"/></svg></div>
+        <h3>Maruti Swift</h3>
+        <p class="desc">Light, frugal, easy to park in old city lanes.</p>
+        <div class="price">₹1,499 <small>/ day</small></div>
+        <a class="btn btn-wa" href="https://wa.me/917240205087?text=Hi%2C%20I%20want%20to%20book%20the%20Maruti%20Swift.%20Please%20share%20availability.">Book Swift</a>
+      </article>
+
+      <article class="card s-3">
+        <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 17h2l1.5-4.5A2 2 0 0 1 8.4 11h7.2a2 2 0 0 1 1.9 1.5L19 17h2"/><circle cx="7" cy="17" r="2"/><circle cx="17" cy="17" r="2"/></svg></div>
+        <h3>Hyundai i20</h3>
+        <p class="desc">Comfortable cabin, smooth on long city days.</p>
+        <div class="price">₹1,699 <small>/ day</small></div>
+        <a class="btn btn-wa" href="https://wa.me/917240205087?text=Hi%2C%20I%20want%20to%20book%20the%20Hyundai%20i20.%20Please%20share%20availability.">Book i20</a>
+      </article>
+
+      <article class="card s-4">
+        <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 17h2l1.5-4.5A2 2 0 0 1 8.4 11h7.2a2 2 0 0 1 1.9 1.5L19 17h2"/><circle cx="7" cy="17" r="2"/><circle cx="17" cy="17" r="2"/></svg></div>
+        <h3>Maruti Baleno</h3>
+        <p class="desc">Premium hatchback feel with a generous boot — ideal for short family trips.</p>
+        <div class="price">₹1,799 <small>/ day</small></div>
+        <a class="btn btn-wa" href="https://wa.me/917240205087?text=Hi%2C%20I%20want%20to%20book%20the%20Maruti%20Baleno.%20Please%20share%20availability.">Book Baleno</a>
+      </article>
+
+      <article class="card s-5">
+        <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 17h2l1.5-4.5A2 2 0 0 1 8.4 11h7.2a2 2 0 0 1 1.9 1.5L19 17h2"/><circle cx="7" cy="17" r="2"/><circle cx="17" cy="17" r="2"/></svg></div>
+        <h3>Tata Punch</h3>
+        <p class="desc">Tall stance, easy to drive, surprisingly roomy. A favourite for first-time self drivers.</p>
+        <div class="price">₹1,999 <small>/ day</small></div>
+        <a class="btn btn-wa" href="https://wa.me/917240205087?text=Hi%2C%20I%20want%20to%20book%20the%20Tata%20Punch.%20Please%20share%20availability.">Book Punch</a>
+      </article>
+
+      <article class="card s-6">
+        <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 17h2l1.5-4.5A2 2 0 0 1 8.4 11h7.2a2 2 0 0 1 1.9 1.5L19 17h2"/><circle cx="7" cy="17" r="2"/><circle cx="17" cy="17" r="2"/></svg></div>
+        <h3>Maruti Brezza</h3>
+        <p class="desc">Compact SUV, perfect mix of comfort and ground clearance for Aravalli day trips.</p>
+        <div class="price">₹2,199 <small>/ day</small></div>
+        <a class="btn btn-wa" href="https://wa.me/917240205087?text=Hi%2C%20I%20want%20to%20book%20the%20Maruti%20Brezza.%20Please%20share%20availability.">Book Brezza</a>
+      </article>
+
+      <article class="card s-7">
+        <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 17h2l1.5-4.5A2 2 0 0 1 8.4 11h7.2a2 2 0 0 1 1.9 1.5L19 17h2"/><circle cx="7" cy="17" r="2"/><circle cx="17" cy="17" r="2"/></svg></div>
+        <h3>Hyundai Venue</h3>
+        <p class="desc">Feature-loaded compact SUV with a punchy turbo engine.</p>
+        <div class="price">₹2,299 <small>/ day</small></div>
+        <a class="btn btn-wa" href="https://wa.me/917240205087?text=Hi%2C%20I%20want%20to%20book%20the%20Hyundai%20Venue.%20Please%20share%20availability.">Book Venue</a>
+      </article>
+
+      <article class="card s-feat s-8">
+        <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 17h2l1.5-4.5A2 2 0 0 1 8.4 11h7.2a2 2 0 0 1 1.9 1.5L19 17h2"/><circle cx="7" cy="17" r="2"/><circle cx="17" cy="17" r="2"/></svg></div>
+        <h3>Mahindra Thar</h3>
+        <p class="desc">The road-trip headliner. 4×4 capable, open-air ready, and unbelievably fun on Aravalli switchbacks. Booked weeks in advance — message early.</p>
+        <div class="price">₹3,999 <small>/ day onwards</small></div>
+        <a class="btn btn-wa" href="https://wa.me/917240205087?text=Hi%2C%20I%20want%20to%20book%20the%20Mahindra%20Thar.%20Please%20share%20available%20dates%20and%20rates.">Book Thar</a>
+      </article>
+
+      <article class="card s-9">
+        <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 17h2l1.5-4.5A2 2 0 0 1 8.4 11h7.2a2 2 0 0 1 1.9 1.5L19 17h2"/><circle cx="7" cy="17" r="2"/><circle cx="17" cy="17" r="2"/></svg></div>
+        <h3>Kia Sonet</h3>
+        <p class="desc">Refined cabin, big screen, smooth automatic — the easy upgrade pick.</p>
+        <div class="price">₹2,499 <small>/ day</small></div>
+        <a class="btn btn-wa" href="https://wa.me/917240205087?text=Hi%2C%20I%20want%20to%20book%20the%20Kia%20Sonet.%20Please%20share%20availability.">Book Sonet</a>
+      </article>
+
+      <article class="card s-10">
+        <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 17h2l1.5-4.5A2 2 0 0 1 8.4 11h7.2a2 2 0 0 1 1.9 1.5L19 17h2"/><circle cx="7" cy="17" r="2"/><circle cx="17" cy="17" r="2"/></svg></div>
+        <h3>Kia Carens</h3>
+        <p class="desc">7-seater for the whole family trip — Pushkar, Mount Abu, weekend at Ranthambore.</p>
+        <div class="price">₹3,999 <small>/ day</small></div>
+        <a class="btn btn-wa" href="https://wa.me/917240205087?text=Hi%2C%20I%20want%20to%20book%20the%20Kia%20Carens%207-seater.%20Please%20share%20availability.">Book Carens</a>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- QUOTE BREAK -->
+<div class="quote-break">
+  <div class="wrap">
+    <blockquote>
+      &ldquo;A holiday should start the second you turn the key — not when you finally lose the driver.&rdquo;
+      <cite>— The thinking behind our service</cite>
+    </blockquote>
+  </div>
+</div>
+
+<!-- ABOUT -->
+<section class="about" id="about">
+  <div class="wrap about-grid">
+    <div>
+      <div class="avatar">RS</div>
+      <span class="eyebrow">Our Story</span>
+      <h2>Built by a Jaipur family that simply loves driving.</h2>
+    </div>
+    <div>
+      <p>Rajasthan Self Drive started when my younger brother asked, half-joking, why everyone in Jaipur had to rent a driver along with a car. We were the family that drove ourselves to Pushkar at sunrise, to Nahargarh for chai, to Sariska just because the weekend was free. Renting a car shouldn't change that.</p>
+      <p>So we put together a small, hand-picked fleet — every car we'd actually take our own parents in — and ran it out of Pratap Nagar. No commission middlemen. No surprises at handover. Just a clean car, a quick KYC, and the keys.</p>
+      <p>Today the cars range from a Swift to a Thar, but the rule hasn't changed: if it isn't road-trip ready on a Friday morning, it doesn't leave the lot.</p>
+      <ul class="diff-list">
+        <li><span class="hex"></span> Every car serviced, sanitised and fuel-checked before handover</li>
+        <li><span class="hex"></span> Free pickup &amp; drop within Pratap Nagar &amp; nearby sectors</li>
+        <li><span class="hex"></span> 24×7 roadside assistance — a real human picks up</li>
+        <li><span class="hex"></span> Transparent rates, no surprise kilometre traps</li>
+        <li><span class="hex"></span> Outstation packages for Pushkar, Udaipur, Ranthambore &amp; Mount Abu</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- GALLERY -->
+<section id="gallery">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">The Cars &amp; The Routes</span>
+      <h2>Where our cars get to wander.</h2>
+    </div>
+    <div class="gallery-grid">
+      <img class="g1" loading="lazy" src="https://images.unsplash.com/photo-1494976388531-d1058494cdd8?w=900&auto=format&fit=crop" alt="SUV parked at a Rajasthan fort">
+      <img class="g2" loading="lazy" src="https://images.unsplash.com/photo-1583121274602-3e2820c69888?w=800&auto=format&fit=crop" alt="Compact sedan ready for delivery">
+      <img class="g3" loading="lazy" src="https://images.unsplash.com/photo-1502877338535-766e1452684a?w=800&auto=format&fit=crop" alt="Highway road through Rajasthan landscape">
+      <img class="g4" loading="lazy" src="https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2?w=900&auto=format&fit=crop" alt="Open jeep on a desert road">
+      <img class="g5" loading="lazy" src="https://images.unsplash.com/photo-1568844293986-8d0400bd4745?w=800&auto=format&fit=crop" alt="Hatchback car interior dashboard">
+      <img class="g6" loading="lazy" src="https://images.unsplash.com/photo-1547036967-23d11aacaee0?w=900&auto=format&fit=crop" alt="Couple driving with windows down">
+      <img class="g7" loading="lazy" src="https://images.unsplash.com/photo-1577086664693-894d8405334a?w=900&auto=format&fit=crop" alt="Amer Fort Jaipur at golden hour">
+      <img class="g8" loading="lazy" src="https://images.unsplash.com/photo-1597007030739-6d2e7172ee6a?w=800&auto=format&fit=crop" alt="Jal Mahal palace on the lake">
+      <img class="g9" loading="lazy" src="https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=1200&auto=format&fit=crop" alt="Long highway under blue Rajasthan sky">
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="testimonials">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">Word of Mouth</span>
+      <h2>What our last few drivers said.</h2>
+    </div>
+    <div class="t-grid">
+      <article class="t-card">
+        <div class="stars">
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+        </div>
+        <p>Took the Creta for three days to Udaipur. Car was spotless, full tank, even had a phone holder set up. Zero drama at return. Will book again next month.</p>
+        <div class="t-meta">Aakash M.<span>Mansarovar, Jaipur</span></div>
+      </article>
+      <article class="t-card">
+        <div class="stars">
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+        </div>
+        <p>Booked the Thar for our trip to Jaisalmer dunes. Honestly the booking happened on WhatsApp in 5 minutes. They dropped the car at my hotel. Felt like family service.</p>
+        <div class="t-meta">Pranjal R.<span>C-Scheme, Jaipur</span></div>
+      </article>
+      <article class="t-card">
+        <div class="stars">
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+        </div>
+        <p>First time renting a self drive. Got the Baleno for a Pushkar weekend. They explained the documents, fuel rule and return timing very clearly. No hidden charges at all.</p>
+        <div class="t-meta">Nisha &amp; Vikram<span>Pratap Nagar, Jaipur</span></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- PRICING -->
+<section id="pricing">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">Transparent Pricing</span>
+      <h2>What it costs. Posted on the wall.</h2>
+      <p>Rates are starting prices for a 24-hour rental in Jaipur city. Multi-day, weekend, and outstation rates differ — ping us on WhatsApp for a written quote.</p>
+    </div>
+    <div class="price-list">
+      <div class="price-row"><div class="name">Maruti Suzuki Swift <small>Hatchback · Manual</small></div><div class="amt">₹1,499 / day</div></div>
+      <div class="price-row"><div class="name">Hyundai i20 <small>Premium Hatchback</small></div><div class="amt">₹1,699 / day</div></div>
+      <div class="price-row"><div class="name">Maruti Suzuki Baleno <small>Premium Hatchback</small></div><div class="amt">₹1,799 / day</div></div>
+      <div class="price-row"><div class="name">Tata Punch <small>Micro SUV</small></div><div class="amt">₹1,999 / day</div></div>
+      <div class="price-row"><div class="name">Maruti Suzuki Brezza <small>Compact SUV</small></div><div class="amt">₹2,199 / day</div></div>
+      <div class="price-row"><div class="name">Hyundai Venue <small>Compact SUV · Turbo</small></div><div class="amt">₹2,299 / day</div></div>
+      <div class="price-row"><div class="name">Kia Sonet <small>Compact SUV · Automatic</small></div><div class="amt">₹2,499 / day</div></div>
+      <div class="price-row"><div class="name">Hyundai Creta <small>Mid-size SUV</small></div><div class="amt">₹3,499 / day</div></div>
+      <div class="price-row"><div class="name">Mahindra Thar <small>4×4 Off-roader</small></div><div class="amt">₹3,999 / day</div></div>
+      <div class="price-row"><div class="name">Kia Carens <small>7-seater MPV</small></div><div class="amt">₹3,999 / day</div></div>
+      <div class="price-row"><div class="name">Premium SUV Rental <small>On request — Fortuner, Innova Crysta etc.</small></div><div class="amt">On Request</div></div>
+      <div class="price-row"><div class="name">Outstation Trip Packages <small>Custom kilometres &amp; days</small></div><div class="amt">On Request</div></div>
+      <div class="price-row"><div class="name">Pickup &amp; Drop in Pratap Nagar <small>Within service area</small></div><div class="amt">Included</div></div>
+      <div class="price-row"><div class="name">24×7 Roadside Assistance <small>Across Rajasthan</small></div><div class="amt">Included</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="about" style="padding-top:90px">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">Visit / Call</span>
+      <h2>Find us in Pratap Nagar.</h2>
+    </div>
+    <div class="contact-grid">
+      <div class="map-wrap">
+        <iframe loading="lazy" src="https://maps.google.com/maps?q=128%2C%20Ankit%20Path%2C%20Sanganer%2C%20Sector%203%2C%20Pratap%20Nagar%2C%20Jaipur%2C%20Rajasthan%20302033&output=embed" title="Map to Rajasthan Self Drive Car Service"></iframe>
+      </div>
+      <div class="info-card">
+        <div class="info-row">
+          <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
+          <div><strong>Address</strong><span>128, Ankit Path, Sanganer, Sector 3, Pratap Nagar, Jaipur, Rajasthan 302033</span></div>
+        </div>
+        <div class="info-row">
+          <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.37 1.9.72 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.35 1.85.59 2.81.72A2 2 0 0 1 22 16.92z"/></svg></div>
+          <div><strong>Phone</strong><a href="tel:+917240205087"><span>+91 72402 05087</span></a></div>
+        </div>
+        <div class="info-row">
+          <div class="ic"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.5 3.5A11.94 11.94 0 0 0 12 0C5.4 0 0 5.4 0 12c0 2.1.6 4.1 1.6 5.9L0 24l6.3-1.6c1.7.9 3.7 1.4 5.7 1.4 6.6 0 12-5.4 12-12 0-3.2-1.2-6.2-3.5-8.3z"/></svg></div>
+          <div><strong>WhatsApp</strong><a href="https://wa.me/917240205087?text=Hi%2C%20I%20want%20to%20book%20a%20self%20drive%20car."><span>+91 72402 05087</span></a></div>
+        </div>
+        <div class="info-row">
+          <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></div>
+          <div style="flex:1">
+            <strong>Hours</strong>
+            <div class="hours">
+              <div><span>Monday</span><span>Open</span></div>
+              <div><span>Tuesday</span><span>Open</span></div>
+              <div><span>Wednesday</span><span>Open</span></div>
+              <div><span>Thursday</span><span>Open</span></div>
+              <div><span>Friday</span><span>Open</span></div>
+              <div><span>Saturday</span><span>Open</span></div>
+              <div><span>Sunday</span><span>Open</span></div>
+              <div><span>Support</span><span>24 × 7</span></div>
+            </div>
+          </div>
+        </div>
+        <div class="contact-cta">
+          <a class="btn btn-wa" href="https://wa.me/917240205087?text=Hi%2C%20I%20want%20to%20visit%20your%20Pratap%20Nagar%20office%20for%20a%20self%20drive%20car.">Message Us</a>
+          <a class="btn btn-call" href="tel:+917240205087">Call Now</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <div class="logo" style="color:#fff">
+          <div class="logo-mark">R</div>
+          <div style="color:#fff">Rajasthan Self Drive<small style="color:#7a8593">Jaipur · Since day one</small></div>
+        </div>
+        <p style="margin-top:16px;color:#9aa5b1;max-width:340px">Future Jaipur your way — comfort, freedom and adventure on four wheels.</p>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <a href="#fleet">Fleet</a>
+        <a href="#about">About</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div>
+        <h4>Ready when you are</h4>
+        <div class="foot-cta">
+          <div>
+            <h3>Book a car in 60 seconds.</h3>
+            <p style="margin:6px 0 0;color:#3a2a06;font-size:.9rem">WhatsApp us, we'll do the rest.</p>
+          </div>
+          <a class="btn btn-primary" href="https://wa.me/917240205087?text=Hi%2C%20I%20want%20to%20book%20a%20self%20drive%20car%20from%20Rajasthan%20Self%20Drive%2C%20Jaipur.">Chat on WhatsApp</a>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      <span>© <span id="yr"></span> Rajasthan Self Drive Car Service Jaipur. All rights reserved.</span>
+      <span>Pratap Nagar, Jaipur · Open 24×7</span>
+    </div>
+  </div>
+</footer>
+
+<div class="built">built with ❤️ by rahul choudhary</div>
+
+<!-- STICKY MOBILE BAR -->
+<div class="sticky-bar">
+  <a class="btn btn-call" style="background:#fffaf0;color:var(--brand);border-color:transparent" href="tel:+917240205087">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.37 1.9.72 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.35 1.85.59 2.81.72A2 2 0 0 1 22 16.92z"/></svg>
+    Call Now
+  </a>
+  <a class="btn btn-wa" href="https://wa.me/917240205087?text=Hi%2C%20I%20want%20to%20book%20a%20self%20drive%20car.">
+    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.5 3.5A11.94 11.94 0 0 0 12 0C5.4 0 0 5.4 0 12c0 2.1.6 4.1 1.6 5.9L0 24l6.3-1.6c1.7.9 3.7 1.4 5.7 1.4 6.6 0 12-5.4 12-12 0-3.2-1.2-6.2-3.5-8.3z"/></svg>
+    WhatsApp
+  </a>
+</div>
+
+<script>
+  document.getElementById('yr').textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
